@@ -1,0 +1,26 @@
+name: Publish
+on: [push]
+jobs:
+  linux:
+    strategy:
+      matrix:
+        arch: [x86_64]
+        os: [linux]
+        bloggy_version: ["1.4.0"]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+      - uses: ./.github/actions/download-bloggy
+        with:
+          version: ${{ matrix.bloggy_version }}
+      - uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: 'lateralusd.github.io'
+          destination-github-username: 'lateralusd'
+          destination-repository-name: 'lateralusd.github.io'
+          user-email: xdaemonx@protonmail.ch
+          target-branch: master
+          commit-message: "ci generated"
