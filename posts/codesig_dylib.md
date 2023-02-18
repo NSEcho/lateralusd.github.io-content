@@ -127,7 +127,7 @@ So in order to extract the load commands we need to do the following:
 
 In golang, it would look something like this:
 
-```golang 
+```go
 package main
 
 import (
