@@ -2,6 +2,9 @@
 title : "Buggy lldb fuzzer"
 description : "How can we fuzz with lldb and python"
 date : 2021-10-21T22:39:17+02:00
+tags:
+    - lldb
+    - fuzzing
 ---
 
 ## Introduction

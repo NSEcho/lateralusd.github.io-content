@@ -2,6 +2,9 @@
 title : "Radare2 and iOS Apps"
 description : "Analyzing the iOS applications using radare2"
 date : 2021-04-14T20:46:23+02:00
+tags:
+    - radare
+    - ios
 ---
 
 ## Introduction

@@ -2,6 +2,8 @@
 title : "Code injection on nonjailbroken iPhone"
 description : "Using custom dylib to modify applications on nonjailbroken iPhone"
 date : 2020-12-09T19:31:28+01:00
+tags:
+    - objc
 ---
 
 ## Introduction

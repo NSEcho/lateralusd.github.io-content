@@ -2,6 +2,9 @@
 title : "American F Lop"
 description : "Fuzzing can be fun"
 date : 2021-02-05T19:04:36+01:00
+tags:
+    - afl
+    - fuzzing
 ---
 
 ## Introduction

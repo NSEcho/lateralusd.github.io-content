@@ -3,6 +3,10 @@ title : "Cracking Mac OS applications for fun and no profit"
 description : "Cracking or should I say patching of Mac OS applications"
 date : 2021-06-08T14:58:20+02:00
 toc: true
+tags:
+    - cracking
+    - macos
+    - radare
 refs: 
 ---
 

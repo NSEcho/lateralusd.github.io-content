@@ -2,6 +2,8 @@
 title : "mutiny fuzzer"
 description : "Fuzzing the network with mutiny fuzzer"
 date : 2021-10-19T09:29:40+02:00
+tags:
+    - fuzzing
 ---
 
 ## Introduction

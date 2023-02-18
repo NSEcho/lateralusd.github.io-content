@@ -2,6 +2,8 @@
 title : "Debugging iOS apps on jailbroken iPhone"
 description : "LLDB + debugserver to debug iOS apps"
 date :  2020-07-03T13:44:28+02:00
+tags:
+    - lldb
 ---
 
 The first time I have tried to debug iOS apps on my jailbroken iPhone I hit the wall. There were many issues I had to solve so in this short post I'm gonna try to help you with this. Since you came to this post, I believe you already know what is lldb so I won't talk about it and let's get straight to the point.

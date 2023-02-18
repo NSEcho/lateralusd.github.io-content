@@ -2,6 +2,9 @@
 title : "FridaGadget.dylib on nonjailbroken iPhone"
 description : "Finally got it"
 date : 2020-12-05T22:31:11+01:00
+tags:
+    - frida
+    - ios
 ---
 
 ## Introduction

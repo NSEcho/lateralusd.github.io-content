@@ -2,6 +2,10 @@
 title : "Jailbreak bypass"
 description : "Simple jailbreak detection bypass"
 date : 2021-01-25T18:05:36+01:00
+tags:
+    - frida
+    - jailbreak
+    - ios
 ---
 
 ## Introduction

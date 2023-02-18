@@ -2,6 +2,10 @@
 title : "SSL pinning is not that hard... sometimes"
 description : "Bypassing SSL pinning"
 date : 2021-02-22T17:22:16+01:00
+tags:
+    - frida
+    - jailbreak
+    - ios
 ---
 
 # Introduction

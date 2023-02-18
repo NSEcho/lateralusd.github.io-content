@@ -2,6 +2,9 @@
 title : "Fun RCE with PHP upload"
 description : "500 Internal Error sometimes can be good"
 date : 2020-08-17T13:09:06+02:00
+tags:
+    - web
+    - rce
 ---
 
 ## Introduction

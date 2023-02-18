@@ -2,6 +2,9 @@
 title: Frida and time-based logout
 description: Bypassing application logout with frida
 date: 2022-10-12T14:33:01.394294+02:00
+tags:
+    - frida
+    - ios
 ---
 
 # Introduction
