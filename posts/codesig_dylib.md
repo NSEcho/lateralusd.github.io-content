@@ -3,9 +3,13 @@ title: LC_LOAD_[WEAK_]DYLIB and LC_CODE_SIGNATURE
 description: Adding new loads and removing code signature
 date: 2023-02-18T21:32:40.136764+01:00
 toc: true
+tags:
+    - macho
+    - golang
+    - ios
+    - frida
 refs:
-    - https://www.google.com
-    - https://www.facebook.com
+    - https://opensource.apple.com/source/cctools/cctools-921/include/mach-o/loader.h.auto.html
 ---
 
 ## Introduction
