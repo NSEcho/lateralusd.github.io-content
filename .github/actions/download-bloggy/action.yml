@@ -9,6 +9,6 @@ runs:
   steps:
     - run: |
         wget https://github.com/lateralusd/bloggy/releases/download/v${{ inputs.version }}/bloggy_${{ inputs.version }}_linux_x86_64.tar.gz -O - | tar --extract -z
-        sed -i 's/outdir: .*/outdir: .\/lateralusd.github.io/g' cfg.yaml
+        sed -i 's/outdir: .*/outdir: .\/NSEcho.github.io/g' cfg.yaml
         ./bloggy gen --drafts=false
       shell: bash
