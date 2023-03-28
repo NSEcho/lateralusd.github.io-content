@@ -22,5 +22,5 @@ jobs:
           destination-github-username: 'NSEcho'
           destination-repository-name: 'NSEcho.github.io'
           user-email: xdaemonx@protonmail.ch
-          target-branch: main
+          target-branch: master
           commit-message: "ci generated"
