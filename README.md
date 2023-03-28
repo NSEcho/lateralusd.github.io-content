@@ -1,3 +1,3 @@
-# lateralusd.github.io-content
+# nsecho.github.io-content
 
-Content used to generate own [blog](https://lateralusd.github.io)
+Content used to generate own [blog](https://nsecho.github.io)
