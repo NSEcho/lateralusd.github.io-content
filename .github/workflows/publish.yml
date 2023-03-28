@@ -18,9 +18,9 @@ jobs:
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
-          source-directory: 'lateralusd.github.io'
-          destination-github-username: 'lateralusd'
-          destination-repository-name: 'lateralusd.github.io'
+          source-directory: 'NSEcho.github.io'
+          destination-github-username: 'NSEcho'
+          destination-repository-name: 'NSEcho.github.io'
           user-email: xdaemonx@protonmail.ch
           target-branch: master
           commit-message: "ci generated"
