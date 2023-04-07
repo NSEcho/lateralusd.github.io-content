@@ -10,6 +10,6 @@ runs:
     - run: |
         wget https://github.com/nsecho/bloggy/releases/download/v${{ inputs.version }}/bloggy_${{ inputs.version }}_linux_x86_64.tar.gz -O - | tar --extract -z
         sed -i 's/outdir: .*/outdir: .\/NSEcho.github.io/g' cfg.yaml
-        cp favicon.ico NSEcho.github.io/assets/
         ./bloggy gen --drafts=false
+        cp favicon.ico NSEcho.github.io/assets/
       shell: bash
