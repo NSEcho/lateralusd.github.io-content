@@ -11,7 +11,7 @@ refs:
     - https://developer.apple.com/documentation/objectivec/objective-c_runtime?language=objc
     - https://github.com/frida/frida-gum/blob/main/gum/backend-darwin/gumobjcapiresolver.c
     - https://github.com/nsecho/gobjcresolv
-draft: true
+draft: false
 ---
 
 ![connection to gobjcresolv](../images/gobjcresolv_conn.png)
