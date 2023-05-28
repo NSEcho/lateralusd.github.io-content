@@ -8,8 +8,8 @@ tags:
     - frida
     - golang
 refs:
-    - https://developer.apple.com/documentation/objectivec/objective-c_runtime?language=objc
-    - https://github.com/frida/frida-gum/blob/main/gum/backend-darwin/gumobjcapiresolver.c
+    - ObjC runtime => https://developer.apple.com/documentation/objectivec/objective-c_runtime?language=objc
+    - Frida gumobjcapiresolver.c => https://github.com/frida/frida-gum/blob/main/gum/backend-darwin/gumobjcapiresolver.c
     - https://github.com/nsecho/gobjcresolv
 draft: false
 ---
