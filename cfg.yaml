@@ -1,15 +1,17 @@
 url: https://nsecho.github.io/
 title: NSEcho
-twitter: ""
-github: https://www.github.com/lateralusd
+twitter: "@lateralusd_"
+github: https://www.github.com/nsecho
 mail: xdaemonx@protonmail.com
 author: NSEcho
 outdir: /Users/demon/tools/nsecho.github.io/
 diffblog: ""
+cname: www.dylib.zip
 posts_per_page: 10
 about: |
-      I am penetration tester doing all kinds of pentests but mostly web and iOS applications pentests.
+      Nothing to know about me.
 
-      Interested in:  
-      * Reverse engineering  
-      * Breaking your security(to report findings of course)
+      ```objc
+      NSEcho * obj = [[NSEcho alloc] init];  
+      [obj helloThere];  
+      ```
