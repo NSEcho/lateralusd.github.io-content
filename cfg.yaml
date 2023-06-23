@@ -6,7 +6,7 @@ mail: xdaemonx@protonmail.com
 author: NSEcho
 outdir: /Users/demon/tools/nsecho.github.io/
 diffblog: ""
-cname: www.dylib.zip
+cname: ""
 posts_per_page: 10
 about: |
       Nothing to know about me.
