@@ -8,6 +8,7 @@ outdir: /Users/demon/tools/nsecho.github.io/
 diffblog: ""
 cname: ""
 posts_per_page: 10
+rss: false
 about: |
       Nothing to know about me.
 
