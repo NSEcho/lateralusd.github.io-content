@@ -12,5 +12,5 @@ runs:
         sed -i 's/outdir: .*/outdir: .\/NSEcho.github.io/g' cfg.yaml
         ./bloggy gen --drafts=false
         cp favicon.ico NSEcho.github.io/assets/
-        ls -l NSEcho.github.io/pgs
+        ls -l NSEcho.github.io/posts
       shell: bash
