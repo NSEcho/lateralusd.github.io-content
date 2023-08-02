@@ -7,6 +7,7 @@ tags:
     - macos
     - vulnerability
 refs:
+    - https://tunnelblick.net/cRlsNotes.html
     - https://tunnelblick.net/2023-08-02-vulnerabilities.html
 draft: false
 ---
