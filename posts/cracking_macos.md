@@ -16,7 +16,7 @@ I was thinking about showing you guys how similar iOS and Mac OS applications ar
 
 Originally, I was using [Hopper](https://www.hopperapp.com) to patch the binary, but I guess not everyone wants to pay for the things so we will be using `r2`.
 
-The method I will be using is kinda similar to the one talked in the [Code injection on nonjailbroken iPhone](http://localhost:1313/theos_like/) with `.dylib`.
+The method I will be using is kinda similar to the one talked in the [Code injection on nonjailbroken iPhone](./theos_like.html) with `.dylib`.
 
 We will also be using `frida` to the analysis and a couple of other programs.
 

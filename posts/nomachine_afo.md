@@ -5,6 +5,7 @@ date: 2023-07-21T19:09:42.911311+02:00
 toc: true
 tags:
     - macos
+    - vulnerability
 refs:
     - https://kb.nomachine.com/TR07U10948
     - https://kb.nomachine.com/SU07U00247

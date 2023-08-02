@@ -6,6 +6,8 @@ toc: true
 tags:
     - frida
     - ios
+draft: false
+refs: 
 ---
 
 ## Introduction
