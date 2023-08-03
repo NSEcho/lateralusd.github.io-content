@@ -1,5 +1,5 @@
 ---
-title: NoMachine Arbitrary File Overwrite
+title: CVE-2023-39107 - NoMachine Arbitrary File Overwrite
 description: Using hardlinks to overwrite root owned files
 date: 2023-07-21T19:09:42.911311+02:00
 toc: true
@@ -9,6 +9,7 @@ tags:
 refs:
     - https://kb.nomachine.com/TR07U10948
     - https://kb.nomachine.com/SU07U00247
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39107
 draft: false
 ---
 
