@@ -1,6 +1,6 @@
 ---
 title: CVEs
-description: Found CVEs
+description: CVEs I have discovered
 ---
 
 * [CVE-2023-27574](../posts/cve_2023_27574.html) - ShadowsocksX-NG MacOS application - Code Injection
