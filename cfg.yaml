@@ -10,9 +10,5 @@ cname: "www.ns-echo.com"
 posts_per_page: 10
 rss: true
 about: |
-      Nothing to know about me.
-
-      ```objc
-      NSEcho * obj = [[NSEcho alloc] init];  
-      [obj helloThere];  
-      ```
+    My name is Erhad Husovic and I work as a Information Security Consultant at [Infigo IS](https://www.infigo.hr).
+     This blog is home to my notes, research as well as vulnerability write-ups.
