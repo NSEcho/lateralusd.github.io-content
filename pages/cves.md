@@ -3,7 +3,7 @@ title: CVEs
 description: CVEs I have discovered
 ---
 
-* [CVE-2023-42821](#) - gomarkdown/markdown (go) - Out-of-bounds Read
+* [CVE-2023-42821](https://github.com/gomarkdown/markdown) - gomarkdown/markdown (go) - Out-of-bounds Read
 * [CVE-2023-41902](#) - MacUpdater (macOS) - Local Privilege Escalation
 * [CVE-2023-33298](../posts/cve_2023_33298.html) - Perimeter81 (macOS) - Local Privilege Escalation
 * [CVE-2023-39107](../posts/nomachine_afo.html) - NoMachine (macOS) - Arbitrary File Overwrite
