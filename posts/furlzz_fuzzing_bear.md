@@ -1,5 +1,5 @@
 ---
-title: Fuzzing iOS URL schemes with furlzz
+title: Fuzz iOS URL schemes with furlzz
 description: Crashing Bear app with simple fuzzing
 date: 2023-09-17T09:59:09.870447+02:00
 toc: false
