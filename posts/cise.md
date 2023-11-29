@@ -10,14 +10,12 @@ refs:
 draft: false
 ---
 
-# Certified iOS Security Engineer Review
-
-## Background and preparation
+# Background and preparation
 A couple of days ago I have obtained [CISE](https://8ksec.io/cise/) (Certified iOS Security Engineer) from [8ksec](https://8ksec.io). As I am a penetration tester and the person who is interested in iOS and macOS security, this was really nice exam to test my knowledge about it. I did not take any specific preparation besides the work I do daily which is pen testing iOS applications and learning about its internals.
 
 The exam will prove that you have the knowledge about the iOS applications, filesystem and different attack vectors. You will have to utilise the static and dynamic analysis using tools such as IDA Pro, Hopper, radare2, Frida, etc. There are no any specific prerequisites for the exam, but you will be in much better position if you spend some time penetration testing or generally doing any kind of iOS based research. This certificate is an intermediate level so you can approximately know what to expect.
 
-## The exam
+# The exam
 For the exam, you get 24 hours to finish it. It consists of multiple iOS applications that you have to attack, but this may not always be the case because from the description of the exam you can also get some services to attack, such as XPC services.
 
 For the exam, you get applications/services installed on the Corellium labs and the access to it and the exam objectives are provided to you at the time of the exam start. This was the first time that I have used Corellium labs so it was pretty nice to get my hands on it.
@@ -28,10 +26,10 @@ Sometimes there may not be anything interesting during the static analysis, so y
 
 After you are done with the exam, you write the report with all your findings and a couple of days later you will be notified about the results.
 
-## Conclusion
+# Conclusion
 Overall, the exam was pretty nice and anyone with some level of experience with iOS should be able to pass the exam. I would suggest this exam to anyone interested in iOS as this will be some kind of confirmation for you knowledge.
 
-## Resources
+# Resources
 Here are a couple of resources where you can learn more about the things that will be required in the exam.
 * https://frida.re/docs/javascript-api/
 * https://8ksec.io/advanced-frida-usage-part-1-ios-encryption-libraries-8ksec-blogs/
