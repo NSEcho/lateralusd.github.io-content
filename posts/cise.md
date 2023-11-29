@@ -31,6 +31,7 @@ Overall, the exam was pretty nice and anyone with some level of experience with 
 
 # Resources
 Here are a couple of resources where you can learn more about the things that will be required in the exam.
+
 * https://frida.re/docs/javascript-api/
 * https://8ksec.io/advanced-frida-usage-part-1-ios-encryption-libraries-8ksec-blogs/
 * https://8ksec.io/advanced-frida-usage-part-2-analyzing-signal-and-telegram-messages-on-ios/
