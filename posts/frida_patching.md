@@ -32,7 +32,7 @@ Right click on the .app file and click on *Show in Finder*. After the new Finder
 ## Patching the application
 First download the gadget from the site given in the prerequisites section. After you have done that, copy .ipa file, embedded.mobileprovision and frida gadget to the same directory, like in an example below.
 
-```
+```bash
 $ tree /tmp/patchingIPA/
 .
 ├── FridaGadget.dylib
@@ -68,14 +68,14 @@ $ cp FridaGadget.dylib Payload/testApp.app/
 
 Now we need to tell our binary to load this FridaGadget.dylib, we do that using `insert_dylib`.
 
-```
+```bash
 $ insert_dylib --strip-codesig --inplace @executable_path/FridaGadget.dylib Payload/testApp.app/testApp
 Added LC_LOAD_DYLIB to Payload/testApp.app/testApp
 ```
 
 There is one more thing left before packaging our app and deploying it, and that is telling our binary where to search for dylibs. In rescue comes `install_name_tool`.
 
-```
+```bash
 $ install_name_tool -add_rpath @executable_path/. Payload/testApp.app/testApp
 ```
 
@@ -87,7 +87,7 @@ For signing, we will use applesign. The first thing we need to do is package our
 
 Now we run applesign on it using our embedded.mobileprovision file and passing the bundle identifier which we setup during creation of our test app. In my case it was com.delorean.test.
 
-```
+```bash
 $ applesign --mobileprovision ./embedded.mobileprovision --bundleid com.delorean.test patched.ipa
 File: /private/tmp/testApp/test/patchingIPA/patched.ipa
 [ ... REDACTED ... ]
@@ -97,7 +97,7 @@ Cleaning up /private/tmp/testApp/test/patchingIPA/patched.ipa.afdd2d36-e576-42b4
 
 As applesign says, our signed app is now inside *patched-resigned.ipa*. We are gonna create a new directory, copy our new resigned app in it, unzip it and deploy it to our device.
 
-```
+```bash
 $ mkdir test
 $ cp patched-resigned.ipa test && cd test
 $ unzip patched-resigned.ipa
@@ -130,7 +130,7 @@ When you click on app, it will say that it is Untrusted Developer, go to the Set
 
 After you have done that, run ios-deploy.
 
-```
+```bash
 $ ios-deploy --bundle Payload/testApp.app/ -W -d
 [ ... REDACTED ...]
 (lldb)     connect
@@ -141,7 +141,7 @@ success
 
 In other window, run `$ frida-ps -U | grep -i gadget`. If everything is done correctly, you should see it in the listing and you can connect to it and hack the hell out of it.
 
-```
+```bash
 $ frida-ps -U | grep -i gadget
 668  Gadget
 $ frida -U Gadget
