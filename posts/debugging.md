@@ -9,11 +9,13 @@ tags:
 The first time I have tried to debug iOS apps on my jailbroken iPhone I hit the wall. There were many issues I had to solve so in this short post I'm gonna try to help you with this. Since you came to this post, I believe you already know what is lldb so I won't talk about it and let's get straight to the point.
 
 __Prerequisites:__
+
 1. Jailbroken iPhone (mine is iPhone 11, 13.4.1)
 2. OpenSSH installed and running on iPhone since we will be using `scp` to copy files to and from device.
 
 ## Getting debugserver on device
-The first thing you need to do is get `debugserver` on the device. There are generally two ways you can do this:
+The first thing you need to do is get `debugserver` on the device. There are generally two ways you can do this: 
+
 * Using hdiutil to attach certain image for your iOS
 * Creating simple blank iOS app in Xcode and deploying it to your device.
 
@@ -26,7 +28,7 @@ The next thing you want to do is transfer `debugserver` to your Mac. I am using 
 
 For signing debugserver I am using `ldid` which came installed with Theos. Create file __ent.xml__ with following content:
 
-```
+```xml
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -44,25 +46,6 @@ For signing debugserver I am using `ldid` which came installed with Theos. Creat
 
 Copy debugserver and ent.xml in the same folder and substitute `/opt/theos` for your install location of Theos.
 After creating file, issue `$ /opt/theos/bin/ldid -Sent.xml debugserver`.
-
-Create file ent.plist with content:
-
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/ PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>com.apple.springboard.debugapplications</key>
-	<true/>
-	<key>run-unsigned-code</key>
-	<true/>
-	<key>get-task-allow</key>
-	<true/>
-	<key>task_for_pid-allow</key>
-	<true/>
-</dict>
-</plist>
-```
 
 Then run `$ codesign -s - --entitlements ent.plist -f debugserver`. Copy debugserver back to the device, give it executive permission.
 
@@ -87,6 +70,7 @@ Listening to port 6666 for a connection from localhost...
 ```
 
 At this point, you should have 2 or 3 tabs open:
+
 1. `iproxy 2222 22`
 2. `iproxy 6666 6666` - for debugserver
 3. `ssh connection to iphone` - this applies only if you are connecting over ssh to iphone instead of terminal app
