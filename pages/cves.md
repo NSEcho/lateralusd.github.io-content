@@ -3,6 +3,7 @@ title: CVEs
 description: CVEs I have discovered
 ---
 
+* [CVE-2023-42828](https://support.apple.com/en-us/HT213843) - macOS Ventura Local Privilege Escalation
 * [CVE-2023-46118](#) - RabbitMQ Denial of Service
 * [CVE-2023-43976](../posts/cve_2023_43976.html) - CatoNetworks (macOS) - Local Privilege Escalation
 * [CVE-2023-42821](https://github.com/advisories/GHSA-m9xq-6h2j-65r2) - gomarkdown/markdown (go) - Out-of-bounds Read
